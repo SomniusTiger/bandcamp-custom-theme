@@ -1,0 +1,485 @@
+@charset "utf-8";
+
+/* I'm going to try to keep this stuff in some kind of sensible order. */
+
+/***************************/
+/* Remove browser defaults */
+/***************************/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	overflow:visible;
+}
+
+body {
+	line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+nav ul {
+	list-style:none;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+	background-color:#ff9;
+	color:#000; 
+	font-style:italic;
+	font-weight:bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+	display:block;
+	height:1px;
+	border:0;   
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+
+input, select {
+	vertical-align:middle;
+}
+
+//
+// VARIABLES
+//
+
+//
+// Global
+//
+
+$albumSize:240px;
+
+
+// Fonts
+
+$titleFont:'Liberator';
+$secondaryFont:'League Gothic';
+$paraFont:Arial;
+
+$fontFamily:'Helvetica Neue', Arial, Verdana, sans-serif;
+
+
+
+// mixin for bullet proof font declaration syntax
+
+@mixin declare-font-face($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
+@font-face {
+	font-family: '#{$font-family}';
+	src: url('fonts/' + $font-filename + '.eot');
+	src: url('fonts/' + $font-filename + '.eot?#iefix') format('embedded-opentype'),
+	url('fonts/' + $font-filename + '.woff') format('woff'),
+	url('fonts/' + $font-filename + '.ttf') format('truetype'),
+	url('fonts/' + $font-filename + '.svg##{$font-family}') format('svg');
+	font-weight: $font-weight;
+	font-style: $font-style;
+	font-stretch: $font-stretch;
+	}
+}
+
+@include declare-font-face($titleFont, 'Liberator', normal);
+@include declare-font-face($secondaryFont, 'leaguegothic-regular', normal);
+
+// Colors
+
+$mainBGColor:#e0e0e0;
+$imgColor:#888;
+$midGrey:#d7d7d7;
+$shadowGrey:#c9c9c9;
+$offBlack:#666666;
+$offWhite:#f7f7f7;
+//
+// STICKY NAV
+//
+
+$navHeight:50px;
+$logoSize:30px;
+
+
+/****************** AND HERE BEGINS THE ACTUAL SITE *******************/
+
+/* GLOBAL */
+
+.clear{
+	clear:both;
+}
+
+h1{
+	font-family:$titleFont, $fontFamily;
+}
+
+h2{
+	font-family:$titleFont, $fontFamily;
+}
+
+h3{
+	font-family:$secondaryFont, $fontFamily;
+}
+
+p{
+	font-family:$paraFont, $fontFamily;
+}
+
+.album{
+	width:240px;
+	height:240px;
+	float:left;
+	margin:{
+		right:20px;
+		bottom:20px;
+	}
+}
+
+.albumLast{
+	width:240px;
+	height:240px;
+	float:left;
+	padding-right:40px;
+}
+
+/* WEBKIT */
+
+::-webkit-scrollbar{
+	width:5px;
+	height:5px;
+}
+
+::-webkit-scrollbar-track-piece{
+	background-color:#aaa;
+}
+
+::-webkit-scrollbar-thumb:vertical{
+	height:30px;
+	background-color:#666;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+	height:30px;
+	background-color:#666;
+}
+
+/* STICKY NAV */
+
+#content{
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+
+	background:#f0f0f0;
+	border-right:$shadowGrey solid 1px;
+}
+
+nav{
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+
+	position:fixed;
+	top:0;
+	width:100%;
+	height:$navHeight;
+	background:$mainBGColor;
+	border-bottom:$shadowGrey 1px solid;
+	z-index:3;
+
+	h1{
+		margin:{
+			top:($navHeight - $logoSize) / 2;
+			bottom:0;
+			left:0;
+			right:0;
+		}
+		position:absolute;
+		text-align:center;
+		width:100%;
+		font-size:30px;
+	}
+
+	#sideNavBtn{
+		width:$logoSize;
+		height:$logoSize;
+		background:$imgColor;
+		margin:{
+			top: ($navHeight - $logoSize) / 2;
+			right:0;
+			bottom:0;
+			left:10px;
+		}
+		position:absolute;
+		z-index:2;
+		cursor:pointer;
+	}
+
+	$sideNavWidth:80%;
+
+	#sideNav{
+		transition:0.5s;
+		-webkit-transition:0.5s;
+		-moz-transition:0.5s;
+
+		position:fixed;
+		left:-$sideNavWidth;
+		width:$sideNavWidth;
+		height:100%;
+		background:$mainBGColor;
+		border-right:$shadowGrey solid 1px;
+		overflow-x:hidden;
+
+		.antiscroll-wrap{
+			height:100%;
+		}
+
+		.antiscroll-inner{
+			height:100%;
+		}
+		
+		ul{
+
+			list-style:none;
+
+			li{
+				padding:18px 0 0 15px;
+				height:50px;
+				border-top:#f7f7f7 1px solid;
+				border-bottom:$shadowGrey 1px solid;
+
+				vertical-align:middle;
+				overflow:hidden;
+
+				font: {
+					family:$secondaryFont, $fontFamily;
+					size:2em;
+				}
+
+				&#personaExpand{
+					transition:0.3s;
+					-webkit-transition:0.3s;
+					overflow:hidden;
+				}
+
+				#personaBtn{
+					margin:-18px 0 -18px 0;
+					padding:18px 0px;
+					cursor:pointer;
+				}
+				
+			}
+			$leftListMargin:18px;
+
+			ul#personaList{
+				margin-top:$leftListMargin;
+				margin-left:-$leftListMargin;
+				padding-left:0px;
+				border-top:$shadowGrey 1px solid;
+
+				li{
+					margin-left:0px;
+
+					height:30px;
+					padding-left: $leftListMargin;
+					font-family:$paraFont, $fontFamily;
+					font-weight:normal;
+					font-style:italic;
+					font-size:0.48em;
+				}
+			}
+		}
+	}
+
+}
+
+#overlay{
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:-2;
+	background-color:rgb(40, 40, 40);
+	opacity:0;
+}
+
+/* LATEST */
+
+header{
+
+	&#firstHeader{
+		margin: 50px 0 0 0;
+	}
+
+	margin:0;
+   
+	h2{
+		color:$offBlack;
+		font-size:16px;
+		margin:0;
+		padding:10px 0;
+		background:#d7d7d7;
+		text-align:center;
+	}
+}
+
+#latestMask{
+	width:100%;
+	overflow:hidden;
+
+	.antiscroll-inner{
+		width:100%;
+		overflow-y:hidden;
+	}
+
+	#latestSlider{
+		margin:20px 20px 0 40px;
+		width: (($albumSize + 20) * 6) + 20px;
+	}
+
+}
+
+/* PERSONAS */
+
+.personaMask{
+	width:100%;
+
+	.antiscroll-inner{
+		width:100%;
+		overflow-y:hidden;
+	}
+
+	.personaSlider{
+		margin:20px 20px 0 40px;
+		width: (($albumSize + 20) * 3) + 20px;
+	}
+}
+
+h3.personaName{
+	font-size:30px;
+	margin:0px auto 0 auto;
+	text-align:center;
+	text-transform:uppercase;
+	border-bottom:$shadowGrey 2px solid;
+	border-top:$offWhite 2px solid;
+}
+
+/* ALBUMS */
+
+//To be created when albums are sorted out heh
+
+/* ABOUT */
+
+#face{
+	width:$albumSize;
+	height:$albumSize;
+	background-color:$imgColor;
+	margin:20px auto 0 auto;
+}
+
+#blabber{
+	margin:20px auto;
+	width:$albumSize + 30;
+
+	h3{
+		font-size:30px;
+	}
+	p{
+		margin:5px 0 0 0;
+		font-size:14px;
+		line-height:20px;
+	}
+}
+
+#social{
+	width:100%;
+
+	ul{
+		width:$albumSize + 30;
+		margin:0 auto;
+		list-style:none;
+
+		li{
+			float:left;
+			width:80px;
+			height:80px;
+			background-color:$imgColor;
+
+			&.first{
+				margin:0 15px 0 0;
+			}
+			&.last{
+				margin:0 0 0 15px;
+			}
+		}
+		
+	}
+
+}
+
+#endOfFooter{
+	width:100%;
+	background-color:#d7d7d7;
+	height:20px;
+	margin:20px 0 0 0;
+}
