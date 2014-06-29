@@ -664,3 +664,518 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:14:03 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/Somnius/src/lapfox-trax/app/views/layouts/application.html.haml:7: syntax error, unexpected =>, expecting ')'
+... 'application', media: 'all' => true
+...                               ^):
+  app/views/layouts/application.html.haml:7: syntax error, unexpected =>, expecting ')'
+
+
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:14:24 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:21:21 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:10 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:41 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:22:51 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:52 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:22:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 69ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:23:07 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:24:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:24:24 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:24:48 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 42ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-06-29 00:24:48 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-06-29 00:24:48 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:25:38 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-06-29 00:25:38 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-06-29 00:25:38 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:26:51 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-06-29 00:26:51 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-06-29 00:26:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 63ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
