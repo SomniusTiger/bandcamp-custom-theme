@@ -1179,3 +1179,567 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -04
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:26:59 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:28:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:29:23 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:31:35 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '{', expecting =>
+..., nil, :type=>"button", :data {:toggle=>"collapse", :target=...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected ',', expecting tSTRING_DEND
+...n", :data {:toggle=>"collapse", :target=>"#navbar-collapse"}...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '}', expecting tSTRING_DEND
+...", :target=>"#navbar-collapse"})}>\n          <span class='s...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...pse"})}>\n          <span class='sr-only'>Toggle Navigation<...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...ass='sr-only'>Toggle Navigation</span>\n          <span clas...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - pa
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...<span class='icon-bar'></span>\n          <span class='icon-...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...></span>\n          <span class='icon-bar'></span>\n        ...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '<'
+...       <span class='icon-bar'></span>\n          <span class...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - pa
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...<span class='icon-bar'></span>\n        </div>\n        <a c...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp option - a
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...  <a class='navbar-brand'></a>\n      </div>\n    </div>\n  ...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - dv
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...</a>\n      </div>\n    </div>\n  </nav>\n</header>\n", -4, ...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - hadr
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...   </div>\n  </nav>\n</header>\n", -4, false);::Haml::Util.h...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unterminated string meets end of file
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  app/views/public/index.html.haml:5: syntax error, unexpected '{', expecting =>
+  app/views/public/index.html.haml:5: syntax error, unexpected ',', expecting tSTRING_DEND
+  app/views/public/index.html.haml:5: syntax error, unexpected '}', expecting tSTRING_DEND
+  app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: unknown regexp options - pa
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: syntax error, unexpected '<'
+  app/views/public/index.html.haml:5: unknown regexp options - pa
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unknown regexp option - a
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unknown regexp options - dv
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unknown regexp options - hadr
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unterminated string meets end of file
+  app/views/public/index.html.haml:5: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+
+
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:31:53 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '{', expecting =>
+...class=>"navbar-toggle", :data {:toggle=>"collapse", :target=...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected ',', expecting tSTRING_DEND
+...e", :data {:toggle=>"collapse", :target=>"#navbar-collapse"}...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '}', expecting tSTRING_DEND
+...", :target=>"#navbar-collapse"})}>\n          <span class='s...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...pse"})}>\n          <span class='sr-only'>Toggle Navigation<...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...ass='sr-only'>Toggle Navigation</span>\n          <span clas...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - pa
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...<span class='icon-bar'></span>\n          <span class='icon-...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...></span>\n          <span class='icon-bar'></span>\n        ...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '<'
+...       <span class='icon-bar'></span>\n          <span class...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - pa
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...<span class='icon-bar'></span>\n        </div>\n        <a c...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp option - a
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...  <a class='navbar-brand'></a>\n      </div>\n    </div>\n  ...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - dv
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...</a>\n      </div>\n    </div>\n  </nav>\n</header>\n", -4, ...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - hadr
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...   </div>\n  </nav>\n</header>\n", -4, false);::Haml::Util.h...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unterminated string meets end of file
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  app/views/public/index.html.haml:5: syntax error, unexpected '{', expecting =>
+  app/views/public/index.html.haml:5: syntax error, unexpected ',', expecting tSTRING_DEND
+  app/views/public/index.html.haml:5: syntax error, unexpected '}', expecting tSTRING_DEND
+  app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: unknown regexp options - pa
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: syntax error, unexpected '<'
+  app/views/public/index.html.haml:5: unknown regexp options - pa
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unknown regexp option - a
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unknown regexp options - dv
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unknown regexp options - hadr
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unterminated string meets end of file
+  app/views/public/index.html.haml:5: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+
+
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:32:18 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '{', expecting =>
+...class=>"navbar-toggle", :data {:toggle=>"collapse", :target=...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected ',', expecting tSTRING_DEND
+...e", :data {:toggle=>"collapse", :target=>"#navbar-collapse"}...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '}', expecting tSTRING_DEND
+...", :target=>"#navbar-collapse"})}>\n          <span class='s...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...pse"})}>\n          <span class='sr-only'>Toggle Navigation<...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...ass='sr-only'>Toggle Navigation</span>\n          <span clas...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - pa
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...<span class='icon-bar'></span>\n          <span class='icon-...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...></span>\n          <span class='icon-bar'></span>\n        ...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '<'
+...       <span class='icon-bar'></span>\n          <span class...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - pa
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...<span class='icon-bar'></span>\n        </div>\n        <a c...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp option - a
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...  <a class='navbar-brand'></a>\n      </div>\n    </div>\n  ...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - dv
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...</a>\n      </div>\n    </div>\n  </nav>\n</header>\n", -4, ...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - hadr
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...   </div>\n  </nav>\n</header>\n", -4, false);::Haml::Util.h...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unterminated string meets end of file
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  app/views/public/index.html.haml:5: syntax error, unexpected '{', expecting =>
+  app/views/public/index.html.haml:5: syntax error, unexpected ',', expecting tSTRING_DEND
+  app/views/public/index.html.haml:5: syntax error, unexpected '}', expecting tSTRING_DEND
+  app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: unknown regexp options - pa
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: syntax error, unexpected '<'
+  app/views/public/index.html.haml:5: unknown regexp options - pa
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unknown regexp option - a
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unknown regexp options - dv
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unknown regexp options - hadr
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: unterminated string meets end of file
+  app/views/public/index.html.haml:5: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+
+
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:32:32 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '{', expecting =>
+...class=>"navbar-toggle", :data {:toggle=>"collapse", :target=...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected ',', expecting tSTRING_DEND
+...e", :data {:toggle=>"collapse", :target=>"#navbar-collapse"}...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '}', expecting tSTRING_DEND
+...", :target=>"#navbar-collapse"})}>\n          <span class='s...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...pse"})}>\n          <span class='sr-only'>Toggle Navigation<...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...ass='sr-only'>Toggle Navigation</span>\n          <span clas...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - pa
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...<span class='icon-bar'></span>\n          <span class='icon-...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...></span>\n          <span class='icon-bar'></span>\n        ...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected '<'
+...       <span class='icon-bar'></span>\n          <span class...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: unknown regexp options - pa
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+...<span class='icon-bar'></span>\n        </div>\n        #{
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:11: unknown regexp options - dv
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:11: syntax error, unexpected $undefined
+));}\n      </div>\n    </div>\n  </nav>\n</head...
+                   ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:11: unknown regexp options - av
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:11: syntax error, unexpected $undefined
+...  </div>\n    </div>\n  </nav>\n</header>\n", -4, false);::H...
+...                               ^
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:11: unterminated regexp meets end of file
+/Users/Somnius/src/lapfox-trax/app/views/public/index.html.haml:11: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  app/views/public/index.html.haml:5: syntax error, unexpected '{', expecting =>
+  app/views/public/index.html.haml:5: syntax error, unexpected ',', expecting tSTRING_DEND
+  app/views/public/index.html.haml:5: syntax error, unexpected '}', expecting tSTRING_DEND
+  app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: unknown regexp options - pa
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/public/index.html.haml:5: syntax error, unexpected '<'
+  app/views/public/index.html.haml:5: unknown regexp options - pa
+  app/views/public/index.html.haml:5: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:11: unknown regexp options - dv
+  app/views/public/index.html.haml:11: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:11: unknown regexp options - av
+  app/views/public/index.html.haml:11: syntax error, unexpected $undefined
+  app/views/public/index.html.haml:11: unterminated regexp meets end of file
+  app/views/public/index.html.haml:11: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+
+
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:33:18 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (Illegal nesting: nesting within a tag that already has content is illegal.):
+    3: 		.container-fluid
+    4: 			.navbar-header
+    5: 				/ .button{:type=>"button",:class=>"navbar-toggle", :data{:toggle=>"collapse", :target=>"#navbar-collapse"}}
+    6: 					%span.sr-only Toggle Navigation
+    7: 					%span.icon-bar
+    8: 					%span.icon-bar
+    9: 					%span.icon-bar
+  app/views/public/index.html.haml:6
+
+
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:33:29 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:29 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:29 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:29 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:29 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:29 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:33:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:33:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:33:30 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:33:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:33:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:33:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:36:51 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 2702ms (Views: 2701.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:36:54 -0400
