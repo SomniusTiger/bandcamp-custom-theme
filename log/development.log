@@ -2745,3 +2745,231 @@ Started GET "/" for 127.0.0.1 at 2014-06-29 00:59:30 -0400
 Processing by PublicController#index as HTML
   Rendered public/index.html.haml within layouts/application (3.8ms)
 Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 01:07:17 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 80ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap-sprockets'
+  (in /Users/Somnius/src/lapfox-trax/app/assets/javascripts/application.js:14)):
+     5: 		%title Lapfox Trax
+     6: 
+     7: 		= stylesheet_link_tag    'application', media: 'all'
+     8: 		= javascript_include_tag 'application'
+     9: 		= csrf_meta_tags
+    10: 
+    11: 	%body
+  app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__3134339002212913094_70167209258900'
+
+
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 01:10:49 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap-sprockets'
+  (in /Users/Somnius/src/lapfox-trax/app/assets/javascripts/application.js:14)):
+     5: 		%title Lapfox Trax
+     6: 
+     7: 		= stylesheet_link_tag    'application', media: 'all'
+     8: 		= javascript_include_tag 'application'
+     9: 		= csrf_meta_tags
+    10: 
+    11: 	%body
+  app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__2773554215198834827_70350252040100'
+
+
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 01:10:51 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap-sprockets'
+  (in /Users/Somnius/src/lapfox-trax/app/assets/javascripts/application.js:14)):
+     5: 		%title Lapfox Trax
+     6: 
+     7: 		= stylesheet_link_tag    'application', media: 'all'
+     8: 		= javascript_include_tag 'application'
+     9: 		= csrf_meta_tags
+    10: 
+    11: 	%body
+  app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__2773554215198834827_70350252040100'
+
+
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 01:12:35 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-29 01:12:35 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 01:13:20 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-29 01:13:20 -0400

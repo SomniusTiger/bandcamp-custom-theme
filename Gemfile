@@ -37,6 +37,9 @@ gem 'font-awesome-rails'
 # Bootstrap, to make going mobile that much easier
 gem 'bootstrap-sass'
 
+# Add vendor prefixes automatically
+gem 'autoprefixer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
