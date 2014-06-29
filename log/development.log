@@ -492,3 +492,175 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 23:47:43 
 
 
 Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-28 23:47:43 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-28 23:56:14 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 386ms (Views: 378.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-28 23:56:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-28 23:56:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-28 23:56:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-28 23:56:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-28 23:56:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-28 23:56:15 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-28 23:56:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:00:03 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:00:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:00:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:00:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:00:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:00:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:00:03 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:00:03 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:11 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:07:19 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (File to import not found or unreadable: theme.
+Load paths:
+  /Users/Somnius/src/lapfox-trax/app/assets/images
+  /Users/Somnius/src/lapfox-trax/app/assets/javascripts
+  /Users/Somnius/src/lapfox-trax/app/assets/stylesheets
+  /Users/Somnius/src/lapfox-trax/vendor/assets/javascripts
+  /Users/Somnius/src/lapfox-trax/vendor/assets/stylesheets
+  /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/font-awesome-rails-4.1.0.0/app/assets/fonts
+  /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/font-awesome-rails-4.1.0.0/app/assets/stylesheets
+  /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/jquery-rails-3.1.1/vendor/assets/javascripts
+  /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/Somnius/src/lapfox-trax/app/assets/stylesheets/application.css.sass:22)):
+    4: 
+    5: 		%title Lapfox Trax
+    6: 
+    7: 		= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    8: 		= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    9: 		= csrf_meta_tags
+   10: 
+  app/assets/stylesheets/application.css.sass:22
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__824418763006512164_70152473402120'
+
+
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Somnius/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+Processing by PublicController#index as HTML
+  Rendered public/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/_base.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/layout/_layout.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/module/_module.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/state/_state.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/theme/_theme.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 00:07:23 -0400

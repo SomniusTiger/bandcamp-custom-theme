@@ -7,6 +7,8 @@ gem 'rails', '4.1.2'
 gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
+# Or use proper SASS
+gem 'sass'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -29,8 +31,11 @@ gem 'spring',        group: :development
 # Haml, for easier HTML typing
 gem 'haml'
 
-#Font Awesome, for great icons
+# Font Awesome, for great icons
 gem 'font-awesome-rails'
+
+# Bootstrap, to make going mobile that much easier
+gem 'bootstrap-sass'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
