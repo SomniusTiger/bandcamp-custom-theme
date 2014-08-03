@@ -29,15 +29,22 @@
 development:
   adapter: mysql2
   database: lapfox
-  username: admin
-  password: admin
+  username: root
+  password: 
   host: localhost
   socket: /tmp/mysql.sock
+
+test:
+  adapter: mysql
+  database: cookbook
+  username: root
+  password: 
+  host: localhost
 
 production:
   adapter: mysql2
   database: lapfox
-  username: admin
-  password: admin
+  username: root
+  password: 
   host: localhost
   socket: /tmp/mysql.sock
