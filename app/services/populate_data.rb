@@ -7,9 +7,7 @@ class PopulateData
   require 'time'
 
   def self.albums
-    albumJSON = File.read("http://api.bandcamp.com/api/band/3/discography?key=#{BANDCAMP_API_KEY}&band_id=4180852708")
-    albumContent = JSON.parse(albumJSON)
-
+    albumContent = JSON.parse open("http://api.bandcamp.com/api/band/3/discography?key=#{BANDCAMP_API_KEY}&band_id=4180852708").read
     puts albumContent
   end
 
