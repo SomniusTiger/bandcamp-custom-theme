@@ -11,6 +11,32 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140701000849) do
+ActiveRecord::Schema.define(version: 20140824055458) do
+
+  create_table "albums", force: true do |t|
+    t.integer  "album_id"
+    t.string   "title"
+    t.string   "artist"
+    t.text     "url"
+    t.integer  "release_date"
+    t.integer  "downloadable"
+    t.text     "large_art_url"
+    t.text     "small_art_url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "tracks", force: true do |t|
+    t.integer  "track_id"
+    t.integer  "album_id"
+    t.string   "title"
+    t.string   "artist"
+    t.decimal  "duration"
+    t.text     "url"
+    t.text     "streaming_url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "number"
+  end
 
 end
