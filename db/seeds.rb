@@ -7,16 +7,14 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 # Seed dummy data from json file
-# albumPath = "#{Rails.root}/db/albums.json"
-# albums = JSON.parse(File.read(albumPath))
 
-# albums.each do |album|
-#   Album.create!(album['album'], without_protection: true)
+PopulateData.albums
+
+# Example 
+
+# json = File.read("#{Rails.root}/public/csvs/sponsor_index_categories.json")
+# content = JSON.parse(json)
+
+# content['RECORDS'].each do |record|
+#   Category.create(name: record['name'], id: record['id'], parent_id: record['parent_id'])
 # end
-
-trackPath = "#{Rails.root}/db/tracks.json"
-tracks = JSON.parse(File.read(trackPath))
-
-tracks.each do |track|
-  Track.create!(track['track'], without_protection: true)
-end
