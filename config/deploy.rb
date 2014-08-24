@@ -2,13 +2,17 @@
 lock '3.2.1'
 
 set :application, 'lapfox_trax'
-set :repo_url, 'git@github.com:etohehir/lapfox-trax.git'
+set :repo_url, 'https://github.com/etohehir/lapfox-trax'
+set :domain, "etohehir@etohehir.com"
+set :tmp_dir, "/home6/etohehir/tmp"
+set :branch, 'master'
+set :linked_dirs, %w{public/system}
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
-# set :deploy_to, '/var/www/my_app'
+set :deploy_to, '/home6/public_html/lapfox'
 
 # Default value for :scm is :git
 # set :scm, :git
