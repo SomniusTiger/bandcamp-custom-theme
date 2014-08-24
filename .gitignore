@@ -2,3 +2,4 @@
 .DS_Store
 /log/
 /public/
+/config/database.yml
