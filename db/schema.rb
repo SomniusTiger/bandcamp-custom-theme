@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20140803073251) do
     t.integer  "album_id"
     t.string   "title"
     t.string   "artist"
-    t.decimal  "duration",      precision: 10, scale: 0
+    t.decimal  "duration"
     t.text     "url"
     t.text     "streaming_url"
     t.datetime "created_at"

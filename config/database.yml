@@ -24,10 +24,9 @@
 #   <<: *default
 #   database: db/production.sqlite3
 
-# Replace old SQLite with mysql
 
 development:
-  adapter: mysql2
+  adapter: sqlite3
   database: lapfox
   username: root
   password: 
@@ -35,14 +34,14 @@ development:
   socket: /tmp/mysql.sock
 
 test:
-  adapter: mysql
+  adapter: sqlite3
   database: cookbook
   username: root
   password: 
   host: localhost
 
 production:
-  adapter: mysql2
+  adapter: sqlite3
   database: lapfox
   username: root
   password: 
