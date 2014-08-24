@@ -6,15 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-# Seed dummy data from json file
+# Seed data from Bandcamp
 
 PopulateData.albums
-
-# Example 
-
-# json = File.read("#{Rails.root}/public/csvs/sponsor_index_categories.json")
-# content = JSON.parse(json)
-
-# content['RECORDS'].each do |record|
-#   Category.create(name: record['name'], id: record['id'], parent_id: record['parent_id'])
-# end
+PopulateData.tracks

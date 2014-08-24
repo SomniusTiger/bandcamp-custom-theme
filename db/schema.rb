@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140803073251) do
+ActiveRecord::Schema.define(version: 20140824055458) do
 
   create_table "albums", force: true do |t|
     t.integer  "album_id"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20140803073251) do
     t.text     "streaming_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "number"
   end
 
 end
