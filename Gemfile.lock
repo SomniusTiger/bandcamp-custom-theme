@@ -143,8 +143,6 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   bootstrap-sass
-  capistrano
-  capistrano-bundler
   capistrano-rails
   coffee-rails (~> 4.0.0)
   font-awesome-rails

@@ -47,8 +47,6 @@ gem 'autoprefixer-rails'
 # gem 'unicorn'
 
 # Use Capistrano for deployment
-gem 'capistrano'
-gem 'capistrano-bundler'
 gem 'capistrano-rails'
 
 # Use debugger
