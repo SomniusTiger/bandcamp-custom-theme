@@ -2,7 +2,7 @@
 lock '3.2.1'
 
 set :application, 'lapfox_trax'
-set :repo_url, 'https://github.com/etohehir/lapfox-trax'
+set :repo_url, 'git@github.com:etohehir/lapfox-trax.git'
 set :branch, 'master'
 set :linked_dirs, %w{public/system}
 
@@ -13,7 +13,7 @@ set :linked_dirs, %w{public/system}
 set :deploy_to, '/var/www/rails-projects/lapfox-trax'
 
 # Default value for :scm is :git
-# set :scm, :git
+set :scm, :git
 
 # Default value for :format is :pretty
 # set :format, :pretty

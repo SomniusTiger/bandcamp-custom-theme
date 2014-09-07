@@ -15,7 +15,7 @@ role :db,  %w{etohehir.com}
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 
-server 'etohehir.com', user: 'etohehir', roles: %w{web app}
+server 'etohehir.com', user: 'root', roles: %w{web app}
 
 
 # Custom SSH Options
@@ -34,13 +34,13 @@ server 'etohehir.com', user: 'etohehir', roles: %w{web app}
 #
 # And/or per server (overrides global)
 # ------------------------------------
-server 'etohehir.com',
-  user: 'root',
-  roles: %w{web app},
-  ssh_options: {
-    user: 'root', # overrides user setting above
-    keys: %w(/root/.ssh/id_rsa),
-    forward_agent: false,
-    auth_methods: %w(publickey password)
-    # password: 'please use keys'
-  }
+# server 'etohehir.com',
+#   user: 'root',
+#   roles: %w{web app},
+#   ssh_options: {
+#     user: 'root', # overrides user setting above
+#     keys: %w(/root/.ssh/id_rsa),
+#     forward_agent: false,
+#     auth_methods: %w(publickey password)
+#     # password: 'please use keys'
+#   }
