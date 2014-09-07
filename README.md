@@ -22,6 +22,6 @@ This website is now being built as a <a href="http://rubyonrails.org/">Ruby on R
 
 I will keep the above list updated as new tools are added or removed.
 
-To see updates as they happen, check out the current deploy on <a href="lapfox.etohehir.com">lapfox.etohehir.com</a>.
+To see updates as they happen, check out the current deploy on <a href="http://lapfox.etohehir.com">lapfox.etohehir.com</a>.
 
 I hope with this project to create a framework not just for Ren, but for all artists on Bandcamp to have a great place to show off their music. 
