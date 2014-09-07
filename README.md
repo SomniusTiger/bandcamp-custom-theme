@@ -7,7 +7,7 @@ Lapfox Trax Redesign
 
 I previously built another version based on a HTML/CSS/PHP/MySQL setup, but due to usability and hosting cost issues I was inspired to rebuild the project in a better way.
 
-This website is now being built as a Ruby on Rails app pulling real information from <a href="http://bandcamp.com/">Bandcamp</a> using their API. I'm using/planning to use the following tools to help out:
+This website is now being built as a <a href="http://rubyonrails.org/">Ruby on Rails</a> app pulling real information from <a href="http://bandcamp.com/">Bandcamp</a> using their API. I'm using/planning to use the following tools to help out:
 
 <ul>
   <li><a href="http://haml.info/">HAML</a></li>
