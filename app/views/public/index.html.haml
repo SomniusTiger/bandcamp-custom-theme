@@ -18,14 +18,13 @@
 							Personas
 							= fa_icon "caret-down"
 						%ul.dropdown-menu
-							%li
-								= link_to "Aurastys", "#"
-								= link_to "Aurastys", "#"
-								= link_to "Aurastys", "#"
-								= link_to "Aurastys", "#"
-								= link_to "Aurastys", "#"
+							-@personas.each do |persona|
+								%li
+									= link_to "#{persona}", "##{persona}"
 					%li
 						= link_to "About", "#"
-
-
-
+	.container
+		.row
+			%ul
+				- @albums.each do |album|
+					%li= album.title
