@@ -1,4 +1,7 @@
 .DS_Store
 /log/
-/tmp
+/tmp/cache
+/tmp/pids
+/tmp/sessions
+/tmp/sockets
 
