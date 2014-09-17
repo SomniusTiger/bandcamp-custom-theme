@@ -1,4 +1,4 @@
-class PublicController < ApplicationController
+class AlbumsController < ApplicationController
 
   def index
     # Get list of all albums
@@ -33,6 +33,10 @@ class PublicController < ApplicationController
       end
 
     end
+  end
+
+  def show
+    @album = Album.find_by_id(params[:id])
   end
 
 end

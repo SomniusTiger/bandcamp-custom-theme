@@ -1,0 +1,7 @@
+.container
+  .row
+    = @album.title
+
+    %ul
+      - @album.tracks.each do |track|
+        %li= track.title
