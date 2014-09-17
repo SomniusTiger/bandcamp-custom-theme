@@ -1,0 +1,25 @@
+%header
+  %nav.navbar.navbar-inverse.navbar-fixed-top
+    .container-fluid
+      .navbar-header
+        .button{:class=>"navbar-toggle", :data => {"toggle"=>"collapse", "target"=>"#navbar-collapse"}}
+          %span.sr-only Toggle Navigation
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        = link_to "Lapfox Trax", "#", class: "navbar-brand"
+
+      .collapse.navbar-collapse#navbar-collapse
+        %ul.nav.navbar-nav.navbar-right
+          %li
+            = link_to "Latest", "#"
+          %li.dropdown
+            %a{:href=>"#", :class=>"dropdown-toggle", :data => {"toggle" => "dropdown"}} 
+              Personas
+              = fa_icon "caret-down"
+            %ul.dropdown-menu
+              -@personas.each do |persona|
+                %li
+                  = link_to "#{persona}", "##{persona.gsub(/[^0-9A-Za-z]/, '')}"
+          %li
+            = link_to "About", "#"

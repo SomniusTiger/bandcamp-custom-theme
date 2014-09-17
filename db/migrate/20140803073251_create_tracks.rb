@@ -5,7 +5,7 @@ class CreateTracks < ActiveRecord::Migration
       t.integer :album_id
       t.string :title
       t.string :artist
-      t.decimal :duration
+      t.float :duration
       t.text :url
       t.text :streaming_url
 
