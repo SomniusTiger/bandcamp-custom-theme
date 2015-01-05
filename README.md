@@ -1,7 +1,7 @@
 Lapfox Trax Redesign
 ====================
 
-<img src="https://dl.dropboxusercontent.com/u/22285634/public_images/LapfoxBranding.png" width="100%" />
+<img src="README_IMG.png" width="100%" />
 
 <b>This is a redesign of the website for Ren Queenston's music label, <a target="_blank" href="http://lapfoxtrax.com/">Lapfox Trax</a>.</b>
 
