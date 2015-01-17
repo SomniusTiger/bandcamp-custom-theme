@@ -6,9 +6,9 @@ class PopulateData
   require 'date'
   require 'time'
 
-  # Get all albums currently on Bandcamp
+  # Get all albums currently on Bandcamp. Gets music from the Keats Collective!
   def self.albums
-    albumContent = JSON.parse open("http://api.bandcamp.com/api/band/3/discography?key=#{BANDCAMP_API_KEY}&band_id=4180852708").read
+    albumContent = JSON.parse open("http://api.bandcamp.com/api/band/3/discography?key=#{BANDCAMP_API_KEY}&band_id=749584242").read
     albumContent['discography'].each do |album|
       Album.create(
         album_id: album['album_id'],

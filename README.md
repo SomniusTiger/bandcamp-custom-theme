@@ -1,13 +1,11 @@
-Lapfox Trax Redesign
-====================
+Bandcamp Custom Theme
+=====================
 
-<img src="README_IMG.png" width="100%" />
-
-<b>This is a redesign of the website for Ren Queenston's music label, <a target="_blank" href="http://lapfoxtrax.com/">Lapfox Trax</a>.</b>
+<b>This is a custom theme for Bandcamp, using the Bandcamp API.</b>
 
 I previously built another version based on a HTML/CSS/PHP/MySQL setup, but due to usability and hosting cost issues I was inspired to rebuild the project in a better way.
 
-This website is now being built as a <a target="_blank" href="http://rubyonrails.org/">Ruby on Rails</a> app pulling real information from <a target="_blank" href="http://bandcamp.com/">Bandcamp</a> using their API. I'm using/planning to use the following tools to help out:
+This is built as a <a target="_blank" href="http://rubyonrails.org/">Ruby on Rails</a> app pulling real information from <a target="_blank" href="http://bandcamp.com/">Bandcamp</a> using their API. I'm using/planning to use the following tools to help out:
 
 <ul>
   <li><a target="_blank" href="http://haml.info/">HAML</a></li>
@@ -22,6 +20,8 @@ This website is now being built as a <a target="_blank" href="http://rubyonrails
 
 I will keep the above list updated as new tools are added or removed.
 
-To see updates as they happen, check out the current deploy on <a target="_blank" href="http://lapfox.etohehir.com">lapfox.etohehir.com</a>.
+To see updates as they happen, check out the current deploy on <a target="_blank" href="http://bandcamp-custom.etohehir.com">bandcamp-custom.etohehir.com</a>.
 
-I hope with this project to create a framework not just for Ren, but for all artists on Bandcamp to have a great place to show off their music. 
+I hope with this project to create a framework for all artists on Bandcamp to have a great place to show off their music. 
+
+Music is from <a target="_blank" href="http://keatscollective.bandcamp.com/">Keats Collective</a>.
