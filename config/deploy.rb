@@ -1,10 +1,10 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
 
-set :application, 'lapfox_trax'
-set :repo_url, 'git@github.com:etohehir/lapfox-trax.git'
+set :application, 'bandcamp_custom'
+set :repo_url, 'git@github.com:etohehir/bandcamp-custom.git'
 set :branch, 'master'
-set :deploy_to, '/var/www/rails-projects/lapfox-trax'
+set :deploy_to, '/var/www/rails-projects/bandcamp-custom'
 
 SSHKit.config.command_map[:rake]  = "bundle exec rake" 
 SSHKit.config.command_map[:rails] = "bundle exec rails"
