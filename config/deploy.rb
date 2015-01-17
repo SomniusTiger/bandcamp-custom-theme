@@ -2,7 +2,7 @@
 lock '3.2.1'
 
 set :application, 'bandcamp_custom'
-set :repo_url, 'git@github.com:etohehir/bandcamp-custom.git'
+set :repo_url, 'git@github.com:etohehir/bandcamp-custom-theme.git'
 set :branch, 'master'
 set :deploy_to, '/var/www/rails-projects/bandcamp-custom'
 
