@@ -3,8 +3,6 @@ Bandcamp Custom Theme
 
 <b>This is a custom theme for Bandcamp, using the Bandcamp API.</b>
 
-I previously built another version based on a HTML/CSS/PHP/MySQL setup, but due to usability and hosting cost issues I was inspired to rebuild the project in a better way.
-
 This is built as a <a target="_blank" href="http://rubyonrails.org/">Ruby on Rails</a> app pulling real information from <a target="_blank" href="http://bandcamp.com/">Bandcamp</a> using their API. I'm using/planning to use the following tools to help out:
 
 <ul>
